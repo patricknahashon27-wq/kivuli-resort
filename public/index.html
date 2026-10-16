@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kivuli Resort, Bungoma — Where Shade Meets Luxury</title>
+  <meta name="description" content="Kivuli Resort is Bungoma's premier destination for dining, accommodation, swimming, and events. Open 24/7. Book your stay today." />
+  <meta name="theme-color" content="#0b3d2e" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg"/>
+  <link rel="icon" type="image/png" href="images/logo.png"/>
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-title" content="Kivuli"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="theme-color" content="#0b3d2e"/>
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="restaurant"/>
+  <meta property="og:title" content="Kivuli Resort, Bungoma — Dining, Accommodation & Events"/>
+  <meta property="og:description" content="Bungoma's hidden shade — exquisite cuisine, comfortable rooms, swimming pool & 24/7 hospitality in Kanduyi."/>
+  <meta property="og:image" content="images/hero.jpg"/>
+  <meta property="og:locale" content="en_KE"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <!-- JSON-LD Structured Data (for Google SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Restaurant","LodgingBusiness"],
+    "name": "Kivuli Resort",
+    "image": "images/hero.jpg",
+    "@id": "https://kivuliresort.co.ke",
+    "url": "https://kivuliresort.co.ke",
+    "telephone": "+254110096089",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kanduyi, near African Institute",
+      "addressLocality": "Bungoma",
+      "addressCountry": "KE"
+    },
+    "geo": {"@type":"GeoCoordinates","latitude":0.5582,"longitude":34.5628},
+    "openingHoursSpecification": {
+      "@type":"OpeningHoursSpecification",
+      "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens":"00:00","closes":"23:59"
+    },
+    "servesCuisine": ["African","Kenyan","Local","Continental","Grill"],
+    "aggregateRating": {"@type":"AggregateRating","ratingValue":"4.1","reviewCount":"144"},
+    "acceptsReservations": "True"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>🌴 Open 24/7 · Dine-in · Takeaway · Delivery</span>
+      <span class="hide-mobile">Call now: <a href="tel:+254110096089">+254 110 096 089</a></span>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header id="navbar" class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Kivuli Resort home">
+        <img src="images/logo.png" alt="Kivuli Resort" class="brand-logo"/>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#dining">Dining</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#events">Events</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#book" class="btn btn-gold btn-sm">Book Now</a>
+        <a href="tel:+254110096089" class="nav-phone">📞 +254 110 096 089</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow" data-reveal>WELCOME TO</p>
+      <h1 class="hero-title" data-reveal>
+        <span class="title-line">Kivuli</span>
+        <span class="title-script">Resort</span>
+      </h1>
+      <p class="hero-tag" data-reveal>
+        Bungoma's hidden shade — where warm hospitality, exquisite cuisine,
+        and restful accommodation meet, 24 hours a day.
+      </p>
+      <div class="hero-pills" data-reveal>
+        <span>🍽️ Dine-in</span><span>🥡 Takeaway</span><span>🛵 Delivery</span>
+        <span>🏨 Accommodation</span><span>🎉 Events</span>
+      </div>
+      <div class="hero-cta" data-reveal>
+        <a href="#book" class="btn btn-gold">Reserve Your Stay</a>
+        <a href="#dining" class="btn btn-ghost">Explore Dining</a>
+      </div>
+      <div class="hero-meta" data-reveal>
+        <div><strong>4.1★</strong><span>144+ Google Reviews</span></div>
+        <div><strong>24/7</strong><span>Always Open</span></div>
+        <div><strong>Kanduyi</strong><span>Bungoma, Kenya</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== INTRO / ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container grid-2">
+      <div class="about-img" data-reveal>
+        <img src="images/exterior.jpg" alt="Kivuli Resort entrance" loading="lazy"/>
+        <div class="about-badge">
+          <span class="num">4.1</span>
+          <span class="txt">Google<br/>Rating</span>
+        </div>
+      </div>
+      <div class="about-text" data-reveal>
+        <p class="eyebrow">OUR STORY</p>
+        <h2>A Place of <em>Shade</em>, A Place of <em>Welcome</em></h2>
+        <p class="lead">
+          <em>Kivuli</em> — Swahili for "shade" — is exactly the haven we built
+          for you: a cool, quiet retreat in the heart of Kanduyi, Bungoma,
+          designed for travellers, families, and locals alike.
+        </p>
+        <p>
+          From our acclaimed restaurant serving Kenyan and continental favourites
+          — including our famous <em>nyama choma</em> — to our comfortable
+          guest rooms, sparkling swimming pool, lively bar, and sauna, every
+          corner of Kivuli is crafted for relaxation, flavour, and memory-making.
+        </p>
+        <ul class="ticks">
+          <li>Dine-in, takeaway &amp; delivery — 24 hours a day</li>
+          <li>Affordable, comfortable en-suite accommodation</li>
+          <li>Swimming pool, sauna &amp; lush gardens</li>
+          <li>Conference &amp; events space for private functions</li>
+          <li>Free private parking &amp; secure grounds</li>
+        </ul>
+        <a href="#rooms" class="btn btn-outline">Discover Rooms</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS STRIP ===== -->
+  <section class="strip">
+    <div class="container strip-grid">
+      <div><span class="num" data-count="24">0</span><span class="lbl">Hours Open Daily</span></div>
+      <div><span class="num" data-count="144">0</span><span class="lbl">Happy Guests &amp; Reviews</span></div>
+      <div><span class="num" data-count="10">0</span><span class="lbl">Years of Hospitality</span></div>
+      <div><span class="num" data-count="100">0</span><span class="lbl">% Guest Satisfaction</span></div>
+    </div>
+  </section>
+
+  <!-- ===== ROOMS ===== -->
+  <section id="rooms" class="section rooms">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">ACCOMMODATION</p>
+        <h2>Rest Easy at Kivuli</h2>
+        <p class="sub">
+          Every room is thoughtfully appointed for comfort — plush beds, en-suite
+          showers, seating areas, flat-screen TV, and Wi-Fi. Whether you're
+          passing through Bungoma or staying a while, you'll find your shade here.
+        </p>
+      </div>
+      <div class="cards-3">
+        <article class="room-card" data-reveal>
+          <div class="card-img"><img src="images/room.jpg" alt="Standard Room" loading="lazy"/></div>
+          <div class="card-body">
+            <h3>Standard Room</h3>
+            <p>Perfect for the solo traveller or short stay — clean, cosy, and quiet.</p>
+            <ul class="room-feats"><li>Queen bed</li><li>En-suite shower</li><li>TV & Wi-Fi</li></ul>
+            <div class="room-foot">
+              <span class="price">From KES 3,500<small>/night</small></span>
+              <a href="#book" class="btn btn-gold btn-sm">Book</a>
+            </div>
+          </div>
+        </article>
+        <article class="room-card featured" data-reveal>
+          <span class="tag">Most Popular</span>
+          <div class="card-img"><img src="images/room.jpg" alt="Deluxe Room" loading="lazy"/></div>
+          <div class="card-body">
+            <h3>Deluxe Room</h3>
+            <p>Spacious comfort with a seating area and garden views — ideal for couples.</p>
+            <ul class="room-feats"><li>King bed</li><li>Seating area</li><li>Garden view</li><li>Breakfast incl.</li></ul>
+            <div class="room-foot">
+              <span class="price">From KES 5,500<small>/night</small></span>
+              <a href="#book" class="btn btn-gold btn-sm">Book</a>
+            </div>
+          </div>
+        </article>
+        <article class="room-card" data-reveal>
+          <div class="card-img"><img src="images/room.jpg" alt="Family Room" loading="lazy"/></div>
+          <div class="card-body">
+            <h3>Family Room</h3>
+            <p>Room for the whole family with extra beds and a larger living area.</p>
+            <ul class="room-feats"><li>Two double beds</li><li>Extra seating</li><li>Breakfast incl.</li></ul>
+            <div class="room-foot">
+              <span class="price">From KES 7,500<small>/night</small></span>
+              <a href="#book" class="btn btn-gold btn-sm">Book</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="note-center">
+        <em>Prices indicative — contact us for long-stay, corporate and group rates.</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== DINING ===== -->
+  <section id="dining" class="section dining dark">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow gold">RESTAURANT &amp; BAR</p>
+        <h2>A Taste of Bungoma, 24/7</h2>
+        <p class="sub">
+          Our chefs craft unforgettable meals from fresh local ingredients —
+          from sizzling nyama choma and traditional Luhya dishes to
+          continental favourites. Dine in, take away, or we'll deliver.
+        </p>
+      </div>
+      <div class="grid-2 dining-grid">
+        <div class="dining-card" data-reveal>
+          <img src="images/food.jpg" alt="Signature dishes" loading="lazy"/>
+          <div>
+            <h3>Signature Menu</h3>
+            <ul class="menu-list">
+              <li><span>Nyama Choma (Grilled Beef/Goat)</span><em>Market</em></li>
+              <li><span>Kuku Choma &amp; Ugali</span><em>KES 850</em></li>
+              <li><span>Wet-Fried Tilapia with Kachumbari</span><em>KES 950</em></li>
+              <li><span>Chicken Curry &amp; Rice</span><em>KES 750</em></li>
+              <li><span>Beef Stew &amp; Chapati</span><em>KES 600</em></li>
+              <li><span>Vegetable Platter &amp; Mukimo</span><em>KES 500</em></li>
+              <li><span>Full English / Kenyan Breakfast</span><em>KES 550</em></li>
+              <li><span>Fresh Juices, Coffee &amp; Chai</span><em>From KES 150</em></li>
+            </ul>
+            <a href="menu.html" target="_blank" class="btn btn-gold">📄 View / Print Full Menu (PDF)</a>
+          </div>
+        </div>
+        <div class="dining-card" data-reveal>
+          <img src="images/bar.jpg" alt="The Bar" loading="lazy"/>
+          <div>
+            <h3>The Bar &amp; Lounge</h3>
+            <p>
+              Unwind with a cold Tusker, premium spirits, or our signature
+              cocktails. Regular karaoke and rhumba nights make the bar a
+              favourite gathering spot in Kanduyi.
+            </p>
+            <ul class="menu-list">
+              <li><span>Local &amp; Premium Beers</span><em>From KES 250</em></li>
+              <li><span>Spirits — Whiskey, Gin, Vodka, Rum</span><em>From KES 300</em></li>
+              <li><span>House Cocktails (Dawa, Mojito…)</span><em>From KES 600</em></li>
+              <li><span>Wines by the bottle / glass</span><em>From KES 450</em></li>
+              <li><span>Soft Drinks &amp; Water</span><em>From KES 100</em></li>
+            </ul>
+            <a href="#contact" class="btn btn-gold">Enquire About Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AMENITIES ===== -->
+  <section id="amenities" class="section amenities">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>Everything You Need, All in One Shade</h2>
+      </div>
+      <div class="amenities-grid">
+        <div class="amenity" data-reveal>
+          <div class="amenity-img"><img src="images/pool.jpg" alt="Swimming Pool" loading="lazy"/></div>
+          <h3>🏊 Swimming Pool</h3>
+          <p>Cool off in our sparkling pool, open daily to guests and day visitors.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity-img"><img src="images/sauna.jpg" alt="Sauna & Spa" loading="lazy"/></div>
+          <h3>🧖 Sauna &amp; Wellness</h3>
+          <p>Detox and recharge in our sauna — the perfect end to a long day.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity-img"><img src="images/garden.jpg" alt="Gardens" loading="lazy"/></div>
+          <h3>🌿 Lush Gardens</h3>
+          <p>Manicured lawns and shaded walkways — an oasis of calm in the city.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity-img"><img src="images/conference.jpg" alt="Conference" loading="lazy"/></div>
+          <h3>🎤 Events &amp; Conferences</h3>
+          <p>Host meetings, weddings, and private celebrations in our flexible spaces.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity-img"><img src="images/restaurant.jpg" alt="24/7 Restaurant" loading="lazy"/></div>
+          <h3>🍽️ 24-Hour Restaurant</h3>
+          <p>Whenever hunger strikes, our kitchen is open — day or night.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity-img"><img src="images/bar.jpg" alt="Bar & Nightlife" loading="lazy"/></div>
+          <h3>🍹 Bar &amp; Nightlife</h3>
+          <p>Karaoke, rhumba nights, live DJs and a fully-stocked bar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section id="events" class="section events">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">EVENTS &amp; NIGHTLIFE</p>
+        <h2>Where Bungoma Comes to <em>Celebrate</em></h2>
+        <p class="sub">
+          From weekend rhumba nights and karaoke to live DJs, sports screenings
+          and private functions — Kivuli is Kanduyi's favourite gathering spot,
+          day and night.
+        </p>
+      </div>
+      <div class="grid-2 events-grid">
+        <div class="events-img" data-reveal>
+          <img src="images/events.jpg" alt="Events at Kivuli" loading="lazy"/>
+        </div>
+        <div data-reveal>
+          <div class="event-card">
+            <h3>🎤 Karaoke Saturdays</h3>
+            <p>Every Saturday from 8 PM till late — hosted by Shameem with DJ Mizile on the decks. Free entry.</p>
+          </div>
+          <div class="event-card">
+            <h3>🎶 Rhumba &amp; Live Music Nights</h3>
+            <p>Monthly rhumba fests featuring DJ Works of Radio Maisha and PDG Nico of TV 47, plus local bands.</p>
+          </div>
+          <div class="event-card">
+            <h3>⚽ Live Football Screenings</h3>
+            <p>Premier League, Kenyan Premier League and AFCON matches shown on our big outdoor screen with ice-cold drinks.</p>
+          </div>
+          <div class="event-card">
+            <h3>💍 Private Functions</h3>
+            <p>Weddings, birthdays, graduation parties, company end-years and conferences — ask about our tailored event packages.</p>
+          </div>
+          <a href="#contact" class="btn btn-gold">Host Your Event With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">GALLERY</p>
+        <h2>A Glimpse of Kivuli</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="g-item t" data-reveal><img src="images/hero.jpg" alt="Garden dining — Kivuli Resort (actual photo)" loading="lazy"/></div>
+        <div class="g-item t" data-reveal><img src="images/restaurant.jpg" alt="Covered patio restaurant — Kivuli Resort (actual photo)" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/food.jpg" alt="Nyama choma &amp; local dishes" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/pool.jpg" alt="Swimming pool" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/room.jpg" alt="Guest room" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/bar.jpg" alt="Bar lounge" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/garden.jpg" alt="Gardens" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/exterior.jpg" alt="Resort entrance" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/conference.jpg" alt="Events hall" loading="lazy"/></div>
+        <div class="g-item" data-reveal><img src="images/sauna.jpg" alt="Sauna" loading="lazy"/></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section id="reviews" class="section reviews dark">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow gold">GUEST VOICES</p>
+        <h2>What Our Guests Say</h2>
+        <p class="sub"><strong>4.1 ★</strong> from 144+ Google reviews</p>
+      </div>
+      <div class="reviews-grid" id="reviewsGrid"></div>
+      <div class="leave-review" data-reveal>
+        <h3>Visited Kivuli? Leave us a review!</h3>
+        <form id="reviewForm" class="review-form">
+          <div class="row">
+            <label>Name<input type="text" name="name" required placeholder="Your name"/></label>
+            <label>Rating
+              <select name="rating" required>
+                <option value="5">★★★★★ Excellent</option>
+                <option value="4">★★★★ Very Good</option>
+                <option value="3">★★★ Good</option>
+                <option value="2">★★ Fair</option>
+                <option value="1">★ Poor</option>
+              </select>
+            </label>
+          </div>
+          <label>Your Review<textarea name="text" rows="2" required placeholder="Share your experience..."></textarea></label>
+          <button class="btn btn-gold" type="submit">Submit Review</button>
+          <p class="form-msg" id="reviewMsg"></p>
+          <p class="muted small"><em>Reviews are moderated before appearing on the site.</em></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKING ===== -->
+  <section id="book" class="section booking">
+    <div class="container grid-2 booking-grid">
+      <div data-reveal>
+        <p class="eyebrow">RESERVATIONS</p>
+        <h2>Book Your Stay</h2>
+        <p class="lead">
+          Fill in the form and our team will confirm your reservation within
+          minutes. Prefer to call? We're here 24/7.
+        </p>
+        <div class="contact-mini">
+          <div><span>📞</span><div><strong>Call / WhatsApp</strong><a href="tel:+254110096089">+254 110 096 089</a></div></div>
+          <div><span>📍</span><div><strong>Location</strong><p>Kanduyi (near African Institute), Bungoma, Kenya</p></div></div>
+          <div><span>🕒</span><div><strong>Open</strong><p>24 hours, every day</p></div></div>
+        </div>
+      </div>
+      <form id="bookingForm" class="form-card" data-reveal>
+        <div class="row">
+          <label>Full Name *<input type="text" name="name" required placeholder="Your name"/></label>
+          <label>Phone *<input type="tel" name="phone" required placeholder="+254 ..."/></label>
+        </div>
+        <label>Email<input type="email" name="email" placeholder="you@example.com"/></label>
+        <div class="row">
+          <label>Check-in<input type="date" name="checkIn"/></label>
+          <label>Check-out<input type="date" name="checkOut"/></label>
+        </div>
+        <div class="row">
+          <label>Guests
+            <select name="guests">
+              <option value="1">1 Guest</option><option value="2" selected>2 Guests</option>
+              <option value="3">3 Guests</option><option value="4">4 Guests</option>
+              <option value="5">5+ Guests</option>
+            </select>
+          </label>
+          <label>Room Type
+            <select name="roomType">
+              <option>Standard Room</option><option selected>Deluxe Room</option>
+              <option>Family Room</option><option>Conference / Event</option>
+              <option>Restaurant / Bar Only</option>
+            </select>
+          </label>
+        </div>
+        <label>Special Requests<textarea name="notes" rows="3" placeholder="Any special requests, dietary needs, event details..."></textarea></label>
+        <button type="submit" class="btn btn-gold btn-block">Request Booking</button>
+        <p class="form-msg" id="bookingMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== PACKAGES ===== -->
+  <section id="packages" class="section packages">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">SPECIAL OFFERS</p>
+        <h2>Curated <em>Packages</em> for Every Occasion</h2>
+        <p class="sub">Ask about our popular packages — designed to give you great value whether you're staying over, hosting friends, or celebrating.</p>
+      </div>
+      <div class="cards-3">
+        <article class="pkg-card" data-reveal>
+          <div class="pkg-badge">Most Chosen</div>
+          <h3>Stay & Dine</h3>
+          <p class="pkg-price">From KES 6,500<span>/person</span></p>
+          <ul>
+            <li>✓ One night in a Deluxe Room</li>
+            <li>✓ Full breakfast for 2</li>
+            <li>✓ 2-course dinner</li>
+            <li>✓ Pool &amp; sauna access</li>
+            <li>✓ Free Wi-Fi &amp; parking</li>
+          </ul>
+          <a href="#book" class="btn btn-outline btn-block">Book Package</a>
+        </article>
+        <article class="pkg-card gold" data-reveal>
+          <div class="pkg-badge">Best Value</div>
+          <h3>Nyama Choma Feast</h3>
+          <p class="pkg-price">From KES 3,500<span>/group of 4</span></p>
+          <ul>
+            <li>✓ 1kg nyama choma (beef/goat)</li>
+            <li>✓ Ugali &amp; kachumbari</li>
+            <li>✓ 4 chilled Tuskers</li>
+            <li>✓ Garden table reservation</li>
+            <li>✓ Available 24/7</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold btn-block">Order Feast</a>
+        </article>
+        <article class="pkg-card" data-reveal>
+          <div class="pkg-badge">Weekend</div>
+          <h3>Pool & Choma Day</h3>
+          <p class="pkg-price">From KES 1,500<span>/person</span></p>
+          <ul>
+            <li>✓ Full day pool access</li>
+            <li>✓ Poolside meal</li>
+            <li>✓ One cold drink</li>
+            <li>✓ Sauna session</li>
+            <li>✓ Locker &amp; towel</li>
+          </ul>
+          <a href="#book" class="btn btn-outline btn-block">Day Pass</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">FAQ</p>
+        <h2>Frequently Asked <em>Questions</em></h2>
+      </div>
+      <div class="faq-list" data-reveal>
+        <details open><summary>What are your opening hours?</summary><p>We are open <strong>24 hours a day, 7 days a week</strong> — including all public holidays. Our kitchen never closes, so you can enjoy a meal at any time, day or night.</p></details>
+        <details><summary>Do you accept walk-in guests, or should I book?</summary><p>Both! Walk-ins are always welcome at our restaurant, bar and swimming pool. However, we recommend booking ahead for <strong>accommodation</strong> and <strong>private events</strong> to guarantee availability. You can book instantly through the form on this website or call us directly.</p></details>
+        <details><summary>Do you offer delivery or takeaway?</summary><p>Yes! We offer both <strong>takeaway</strong> and <strong>delivery</strong> within Bungoma town and Kanduyi. Call <a href="tel:+254110096089">+254 110 096 089</a> to place your order.</p></details>
+        <details><summary>Can I host a wedding, birthday, or company event at Kivuli?</summary><p>Absolutely. We regularly host weddings, engagement parties, birthdays, graduation celebrations, church functions, and corporate events/conferences. Our garden and indoor spaces can cater for groups of various sizes. <a href="#contact">Send us an enquiry</a> with your date and expected number of guests, and we'll tailor a package for you.</p></details>
+        <details><summary>Is parking available?</summary><p>Yes — we offer <strong>free, secure private parking</strong> within our compound, 24/7.</p></details>
+        <details><summary>Do you have Wi-Fi and M-Pesa payment?</summary><p>Yes to both. Free Wi-Fi is available for guests, and we accept M-Pesa, cash, and card payments.</p></details>
+        <details><summary>Can I use the swimming pool without staying overnight?</summary><p>Yes — day visitors are welcome to use the swimming pool for a small daily fee. Food and drinks can be ordered poolside.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA STRIP ===== -->
+  <section class="cta-strip">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to experience Kivuli?</h2>
+        <p>Book a room, reserve a table, or enquire about your next event — we're here 24/7.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="tel:+254110096089" class="btn btn-gold">📞 Call Us Now</a>
+        <a href="#book" class="btn btn-ghost">Book Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / NEWSLETTER ===== -->
+  <section id="contact" class="section contact dark">
+    <div class="container grid-2">
+      <div data-reveal>
+        <p class="eyebrow gold">GET IN TOUCH</p>
+        <h2>Send Us a Message</h2>
+        <p>Questions about events, catering, or bulk bookings? Drop us a note.</p>
+        <form id="contactForm" class="form-card light">
+          <div class="row">
+            <label>Name *<input type="text" name="name" required placeholder="Your name"/></label>
+            <label>Email<input type="email" name="email" placeholder="you@example.com"/></label>
+          </div>
+          <label>Phone<input type="tel" name="phone" placeholder="+254 ..."/></label>
+          <label>Subject<input type="text" name="subject" placeholder="e.g. Wedding enquiry"/></label>
+          <label>Message *<textarea name="message" rows="4" required placeholder="How can we help?"></textarea></label>
+          <button type="submit" class="btn btn-gold btn-block">Send Message</button>
+          <p class="form-msg" id="contactMsg"></p>
+        </form>
+      </div>
+      <div data-reveal>
+        <p class="eyebrow gold">FIND US</p>
+        <h2>Kivuli Resort</h2>
+        <ul class="find-list">
+          <li><strong>Address:</strong> Kanduyi (near African Institute), Bungoma, Kenya</li>
+          <li><strong>Phone:</strong> <a href="tel:+254110096089">+254 110 096 089</a></li>
+          <li><strong>Email:</strong> <a href="mailto:info@kivuliresort.co.ke">info@kivuliresort.co.ke</a></li>
+          <li><strong>Hours:</strong> Open 24 hours, 7 days a week</li>
+          <li><strong>Plus Code:</strong> HH95+R9 Bungoma</li>
+        </ul>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps?q=Kivuli+Resort,+Bungoma&output=embed"
+            width="100%" height="280" style="border:0;border-radius:12px;"
+            allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Kivuli Resort map"></iframe>
+        </div>
+        <div class="newsletter">
+          <h3>Join our newsletter</h3>
+          <p>Get event updates and special offers.</p>
+          <form id="newsForm" class="news-form">
+            <input type="email" name="email" placeholder="your@email.com" required/>
+            <button class="btn btn-gold">Subscribe</button>
+          </form>
+          <p class="form-msg" id="newsMsg"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand"><img src="images/logo.png" alt="Kivuli Resort" class="brand-logo" style="height:64px"/></a>
+        <p class="muted">Bungoma's premier 24-hour resort, restaurant and events destination.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul><li><a href="#about">About</a></li><li><a href="#rooms">Rooms</a></li><li><a href="#dining">Dining</a></li><li><a href="#gallery">Gallery</a></li></ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Kanduyi, Bungoma, Kenya</li>
+          <li><a href="tel:+254110096089">+254 110 096 089</a></li>
+          <li><a href="mailto:info@kivuliresort.co.ke">info@kivuliresort.co.ke</a></li>
+          <li>Open 24/7</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Admin</h4>
+        <ul><li><a href="/admin">Staff Login</a></li></ul>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="TikTok">♪</a><a href="https://wa.me/254110096089" aria-label="WhatsApp">W</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="yr"></span> Kivuli Resort, Bungoma. All rights reserved.</p>
+        <p class="muted">Crafted with care — "Kivuli" means <em>shade</em> in Swahili.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Book -->
+  <a href="#book" class="fab-book" aria-label="Book now">🛏️ Book Now</a>
+
+  <!-- Cookie banner -->
+  <div id="cookieBanner" class="cookie" hidden>
+    <p>🍪 This site uses cookies and your phone number is used only to confirm your booking. By continuing you accept this. <a href="#faq">Learn more</a></p>
+    <button onclick="document.getElementById('cookieBanner').style.display='none';localStorage.setItem('kivuliCookies','1')">Accept</button>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/254110096089?text=Hello%20Kivuli%20Resort%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+     target="_blank" rel="noopener" class="fab-whatsapp" aria-label="WhatsApp us">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.074-.04-.147-.13-.217-.214-.158-1.26-.674-1.577-.892zm-5.68-9.07h-.01c-3.328.017-6.035 2.717-6.05 6.042-.005 1.064.275 2.098.81 3.012l-1.09 3.37 3.46-1.07a6.024 6.024 0 0 0 2.878.735h.01c3.326 0 6.034-2.712 6.05-6.04.015-3.33-2.71-6.05-6.06-6.05z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

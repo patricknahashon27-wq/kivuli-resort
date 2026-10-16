@@ -1,0 +1,4 @@
+# Render / Railway build configuration (optional - works without it too)
+buildCommand: npm install
+startCommand: npm start
+healthCheckPath: /

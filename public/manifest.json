@@ -1,0 +1,14 @@
+{
+  "name": "Kivuli Resort, Bungoma",
+  "short_name": "Kivuli",
+  "description": "Dining, Accommodation & Events — Bungoma's hidden shade",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b3d2e",
+  "theme_color": "#0b3d2e",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "images/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "images/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kivuli Resort — Admin Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css"/>
+</head>
+<body>
+
+  <div id="loginView" class="login-wrap">
+    <form id="loginForm" class="login-card">
+      <h1>Kivuli Resort</h1>
+      <p class="sub">Staff Dashboard Login</p>
+      <label>Username<input type="text" name="username" value="admin" required/></label>
+      <label>Password<input type="password" name="password" required/></label>
+      <button class="btn-gold" type="submit">Sign In</button>
+      <p class="err" id="loginErr"></p>
+      <p class="hint">Default: <code>admin</code> / <code>kivuli2025</code></p>
+    </form>
+  </div>
+
+  <div id="dashView" class="dash" hidden>
+    <aside class="sidebar">
+      <div class="brand-sm"><span>K</span><span><b>Kivuli</b><small>Admin</small></span></div>
+      <nav>
+        <button data-tab="overview" class="active">📊 Overview</button>
+        <button data-tab="bookings">🛏️ Bookings <span id="bc" class="b">0</span></button>
+        <button data-tab="messages">✉️ Messages <span id="mc" class="b">0</span></button>
+        <button data-tab="reviews">⭐ Reviews <span id="rc" class="b">0</span></button>
+      </nav>
+      <button id="logoutBtn" class="logout">Logout</button>
+    </aside>
+    <main class="main">
+      <header class="dash-head">
+        <h2 id="tabTitle">Overview</h2>
+        <div>
+          <a class="btn-sm" href="/">← View Site</a>
+        </div>
+      </header>
+
+      <section id="tab-overview" class="tab active">
+        <div class="stats">
+          <div class="stat"><div class="n" id="sBookings">0</div><div class="l">Total Bookings</div></div>
+          <div class="stat"><div class="n" id="sPending">0</div><div class="l">Pending</div></div>
+          <div class="stat"><div class="n" id="sMessages">0</div><div class="l">Messages</div></div>
+          <div class="stat"><div class="n" id="sUnread">0</div><div class="l">Unread</div></div>
+        </div>
+        <div class="two-col">
+          <div class="card">
+            <h3>Latest Bookings</h3>
+            <table><thead><tr><th>Name</th><th>Room</th><th>Dates</th><th>Status</th></tr></thead><tbody id="bkShort"></tbody></table>
+          </div>
+          <div class="card">
+            <h3>Latest Messages</h3>
+            <ul id="msgShort" class="msg-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-bookings" class="tab">
+        <div class="card">
+          <h3>All Bookings</h3>
+          <div class="table-wrap">
+            <table id="bkTable">
+              <thead><tr><th>Ref</th><th>Name</th><th>Phone</th><th>Room</th><th>Check-in</th><th>Guests</th><th>Status</th><th></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-messages" class="tab">
+        <div class="card">
+          <h3>Contact Messages</h3>
+          <div id="msgList"></div>
+        </div>
+      </section>
+
+      <section id="tab-reviews" class="tab">
+        <div class="card">
+          <h3>Reviews (Moderation Queue)</h3>
+          <div id="revList"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
