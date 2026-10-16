@@ -1,3 +1,5 @@
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/patricknahashon27-wq/kivuli-resort)
+
 # 🌴 Kivuli Resort, Bungoma — Premium Website
 
 A complete, production-ready full-stack website built for **Kivuli Resort**
